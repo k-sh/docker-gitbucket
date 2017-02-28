@@ -8,4 +8,5 @@ services:
     - "8080:8080"
     - "29418:29418"
     volumes:
-    - /opt/docker-gitbucket/data:/opt/gitbucket/data
+    - ./data:/opt/gitbucket/data
+    restart: unless-stopped

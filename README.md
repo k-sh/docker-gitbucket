@@ -15,23 +15,18 @@ Example
 + Download this repository
 
 ```shell-session
-# cd /opt/
 # git clone https://github.com/k-sh/docker-gitbucket
 ```
 
 + Build this image
 
 ```shell-session
-# cd /opt/docker-gitbucket
+# cd docker-gitbucket
 # docker-compose build
 ```
 
-+ Register this service in systemd and start service
++ Start this service
 
 ```shell-session
-# cp /opt/docker-gitbucket/gitbucket.service /usr/lib/systemd/system/gitbucket.service
-# systemctl deamon-reload
-# systemctl enable gitbucket
-# systemctl start gitbucket
+# docker-compose up -d
 ```
-
