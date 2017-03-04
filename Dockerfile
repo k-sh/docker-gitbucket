@@ -2,7 +2,7 @@ FROM centos:latest
 
 MAINTAINER k-sh <tefutefu85@gmail.com>
 
-ENV GITBUCKET_VERSION 4.9
+ENV GITBUCKET_VERSION 4.10
 ENV GITBUCKET_PREFIX /
 ENV GITBUCKET_DIR /opt/gitbucket
 ENV GITBUCKET_HOME /opt/gitbucket/data

@@ -3,7 +3,7 @@ version: '2'
 services:
   gitbucket:
     build: .
-    image: k-sh/gitbucket:4.9
+    image: k-sh/gitbucket:4.10
     ports:
     - "8080:8080"
     - "29418:29418"
